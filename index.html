@@ -25,6 +25,11 @@
 	</div>
 </header>
 
+<!-----Banner----->
+<section id="banner">
+<div class="banner-text"></div>
+</section>
+
 <!-----Service----->
 <section id="service">
 	<h1>Service</h1>
@@ -53,27 +58,50 @@
 			<p>Daftar harga commission</p>
 		</div>
 
-<div id="quaBtn4" class="service-item">
-<div class="service-icon">
-<i class="fas fa-layer-group" aria-hidden="true"></i>
-</div>
-<h3>terms & conditions</h3>
-<p>Syarat dan ketentuan sebelum, saat, dan setelah melakukan book commisiom</p>
-</div>
-</div>
+		<div id="quaBtn4" class="service-item">
+			<div class="service-icon">
+				<i class="fas fa-layer-group" aria-hidden="true"></i>
+			</div>
+			<h3>terms & conditions</h3>
+			<p>Syarat dan ketentuan sebelum, saat, dan setelah melakukan book commisiom</p>
+		</div>
+	</div>
 </section>
 
 <!-----Design----->
 <section id="design">
-<h1>My Design</h1>
+	<h1>My Design</h1>
+	<div class="project-container">
+		<div id="projectBtn">
+			<button class="project-btn projectActive" onclick="filterSelection('all')">All</button>
+			<button class="project-btn" onclick="filterSelection('frontEnd')">Front End</button>
+			<button class="project-btn" onclick="filterSelection('backEnd')">Back End</button>
+			<button class="project-btn" onclick="filterSelection('design')">UI/UX Design</button>
+		</div>
+		<div class="row">
+			<div class="column frontEnd">
+				<div class="project-content">
+					<img src="img/project1.png" style="width: 100%;">
+					<div class="project-text">
+						<h3>Azhari's Portofolio</h3>
+						<p>Mendesign landing page website personal sebagai portofolio untuk menyimpan hasil karya yang dibuat.</p>
+						<span>22/06/23</span>
+					</div>
+				</div>
 </section>
 
 <!-----Footer----->
 <footer>
-<div class="foot-logo">
-</div>
-<div class="foot-body">
-</div>
+	<div class="foot-logo"></div>
+	<div class="foot-body">
+		<h3>All I wanna do is, <span>FLY HIGH!</span></h3>
+		<ul class="footer-social">
+			<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://instagram.com"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+		</ul>
+		<p>copyright &copy;2022 <span>RAZia</span> hak cipta dilindungi undang-undang</p>
+	</div>
 </footer>
 </body>
 </html>
